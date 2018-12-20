@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+li{
+	list-style-type: none;	
+}
+a{
+	text-decoration: none;	
+}
+#temp_holder {
+   background-color: #eafcee;
+}
+.wrapper{
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 880px;
+    overflow: hidden;
+    padding: 0.1%;
+    width: 99%;
+}
+.logo {
+    margin-top: 2%;
+    text-align: center;
+}
+.titlt {
+    margin-top: 2%;
+}
+.titlt h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+.p_holder {
+    overflow: hidden;
+   padding-top: 1%;
+}
+.p-img {
+    float: left;
+    text-align: center;
+    width: 50%
+}
+.p-img > img {
+    border: 3px solid;
+    border-radius: 10px;
+    max-height: 400px;
+    max-width: 400px;
+}
+.features {
+    float: right;
+    width: 50%;
+}
+.features > h2 {
+    border-bottom: 2px solid;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    width: 98%;
+}
+.features > ul {
+    margin-left: 5%;
+}
+.features ul li {
+     line-height: 30px;
+    list-style-type: unset;
+}
+.des{
+	padding-top: 2%;
+}
+.des > h2 {
+    color: #fff;
+    padding-left: 1%;
+}
+.des_content {
+    padding: 1%;
+	border: 2px solid;
+	border-top: 0px;
+}
+.des_content > ul {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.des_content ul li {
+    list-style-type: inherit;
+}
+.tabs {
+    margin: 2% auto;
+    width: 100%;
+}
+.tabs section {
+    border: 2px solid;
+    display: none;
+    padding: 1%;
+}
+.tabs input {
+  display: none;
+}
+.tabs label {
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 0 -1px;
+    padding: 15px 45.2px;
+    text-align: center;
+}
+.tabs label:hover {
+	opacity: 0.6;
+  cursor: pointer;
+}
+.tabs input:checked + label {
+  color: #000;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+}
+.tabs section ul {
+    margin-left: 2%;
+}
+.tabs section ul li {
+    list-style-type: unset;
+}
