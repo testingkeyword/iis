@@ -1,0 +1,171 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.wrapper {
+    font-family: "Roboto Slab",serif;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1140px;
+	width: 100%;
+}
+.top {
+    background: rgba(0, 0, 0, 0) url("header-bg.jpg") repeat scroll 0 0;
+    height: 30px;
+}
+.title {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-img-holder{
+    background: rgba(0, 0, 0, 0) url("header-bg.jpg") repeat scroll 0 0;
+    padding: 2.5% 0;
+    text-align: center;
+}
+.main-img {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 1%;
+    width: 94%;
+}
+.main-img > img {
+    max-width: 350px;
+}
+.content_holder > h2 {
+    background-color: #fb7e17;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+.content {
+    border: 1px solid #ddd;
+    overflow-wrap: break-word;
+    padding: 0 1%;
+    width: 100%;
+}
+.listing-tab {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+.listing-tab main {
+	min-width: 320px;
+	max-width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0 auto;
+	background: #fff;
+}
+.listing-tab section {
+	float: left;
+	margin: 0;
+	padding: 19px 0px;
+	display: none;
+	border: 1px solid #ddd;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: justify;
+	color: #5a5a5a;
+	width: 99.9%;
+}
+.listing-tab input {
+	display: none;
+}
+.listing-tab label {
+	width: 190px;
+	float: left;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 0;
+	color: #fff;
+	border: 0 none;
+	background: #fb7e17;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 111;
+}
+.listing-tab label:hover {
+	color: #222;
+	cursor: pointer;
+	background: #fb7e17 url(tab-arrow.png) no-repeat center top;
+}
+.listing-tab input:checked + label {
+	color: #222;
+	border: 0;
+	background: #fb7e17 url(tab-arrow.png) no-repeat center top;
+}
+.listing-tab #tab1:checked ~ #content1, .listing-tab #tab2:checked ~ #content2, .listing-tab #tab3:checked ~ #content3,.listing-tab #tab4:checked ~ #content4{
+	display: block;
+}
+.listing-tab .d-link {
+	padding: 0;
+	text-align: center
+}
+.listing-tab .d-link a {
+    background-color: #fb7e17;
+    color: #fff;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.listing-tab .d-link a:hover {
+	color: #222;
+}
+.listing-tab .margin-none {
+	margin: 0;
+}
+footer {
+    background-color: #222;
+}
+.f-bottom {
+    background: rgba(0, 0, 0, 0) url("header-bg.jpg") repeat scroll 0 0;
+    padding: 5% 0;
+}
+.f-bottom ul li {
+    float: left;
+}
+.f-bottom ul li:last-child {
+    float: right;
+}
+.f-bottom ul li a {
+    color: #222;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.f-bottom ul li a:hover{
+	color: #ff6501;
+}
+.f-bottom .wrapper > ul {
+    overflow: hidden;
+}
+.wrapper > p {
+    color: #505050;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 3%;
+    text-align: center;
+}
+.f-bottom span {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
