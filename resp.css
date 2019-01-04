@@ -1,0 +1,23 @@
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+.gallery > img {
+    max-width: 400px;
+    width: 92%;
+}
+
+.des ul {
+    margin-left: 4%;
+}
+
+	}
+/* Mobile Iphone 5 portrait (devices and browsers) */
+@media only screen and (max-width: 320px) {
+.gallery > img {
+    max-width: 400px;
+    width: 92%;
+}
+
+.des ul {
+    margin-left: 4%;
+}
+	}
